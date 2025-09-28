@@ -47,13 +47,13 @@ mongoose
     });
   })
   .catch((error) => {
-    console.error('Database connection error:', error);
+    console.error('Database connection error here:', error);
     process.exit(1);
   });
 
 // Graceful shutdown
 process.on('SIGINT', async () => {
-  console.log('Changed again to - Shutting down gracefully...');
+  console.log('Changed again to this- Shutting down gracefully...');
   await mongoose.connection.close();
   process.exit(0);
 });
