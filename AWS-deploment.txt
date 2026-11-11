@@ -1,0 +1,13 @@
+ssh -i "<path>" ec2-user@IP
+
+nano file_name.sh
+
+chmod +x file_name.sh
+
+./file_name.sh
+
+
+docker-compose ->
+sudo mkdir -p /usr/local/lib/docker/cli-plugins
+
+sudo curl -Sl https://gith   
